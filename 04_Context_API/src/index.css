@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.light {
+  background-color: lightblue;
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav button {
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.nav button:active {
+  scale: 0.97;
+}
